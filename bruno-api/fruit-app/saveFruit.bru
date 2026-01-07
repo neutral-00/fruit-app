@@ -1,0 +1,22 @@
+meta {
+  name: saveFruit
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:8080/api/fruits
+  body: json
+  auth: inherit
+}
+
+headers {
+  Content-Type: application/json
+}
+
+body:json {
+  {
+    "name": "Guava",
+    "description": "Guava is a tropical 'superfruit', green in color, packed with more Vitamin C than oranges, abundant fiber for digestion, and antioxidants, offering robust immunity and heart health benefits in a sweet, aromatic package. "
+  }
+}
