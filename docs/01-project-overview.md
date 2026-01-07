@@ -32,7 +32,6 @@ We’ll use **progressive branches**, not feature branches.
 
 ```
 main
- ├── docs
  ├── v1-backend-basic
  ├── v1-frontend-basic
  ├── v1-docker-compose
